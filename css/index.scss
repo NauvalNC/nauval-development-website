@@ -1,7 +1,11 @@
 $color-primary: #449ad5;
+$color-primary-darken: darken($color: $color-primary, $amount: 6);
+
 $color-secondary: #f1edd4;
 $color-danger: #dc3545;
 $color-success: #28a745;
+
+$common-font-weight: 700;
 
 $inset-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
 $border-rad: 5px;
@@ -24,11 +28,10 @@ button
 
 .btn 
 {
-    font-weight: 700;
     text-decoration: none;
     display: inline-block;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: $common-font-weight;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -51,7 +54,7 @@ button
 
 .btn-primary:hover 
 {
-    background-color: darken($color: $color-primary, $amount: 6);
+    background-color: $color-primary-darken;
     transition: $bg-transition;
 }
 
@@ -71,14 +74,25 @@ button
     border-radius: 100px;
 }
 
-.text-md 
-{
-    font-size: 20px;
-}
-
 .color-primary 
 {
     color: $color-primary;
+}
+
+.font-w 
+{
+    font-weight: $common-font-weight
+}
+
+.wave-top 
+{
+    position: relative;
+    top: -40px;
+    background-image: url("../images/pattern_top.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: contain;
+    height: 40px;
 }
 
 /* Commons - END */
@@ -96,183 +110,76 @@ button
     background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-.nav .btn-group, .nav #slide-menu-open
-{
-    float: right;
-}
-
-.comp 
+.company-name
 {
     display: inline-block;
-    font-weight: 700;
-    font-size: 20px;
     margin-bottom: 0;
-    margin-top: 2px;
 }
 
-.slide-fade 
+.float-nav 
 {
     display: none;
-    z-index: 101;
     position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.slide-menu 
-{
-    display: none;
+    right: 0;
     z-index: 102;
-    position: fixed;
-    width: 300px;
+    width: 0%;
     height: 100vh;
+    text-align: center;
     background-color: $color-primary;
 }
 
-.slide-menu ol 
+.float-nav ol li 
 {
     list-style-type: none;
 }
 
-.slide-menu .slide-menu-btn 
+.float-nav ol li button 
 {
-    width: 100%;
     border: none;
-    background: none;
-    font-weight: 700;
-    color: white;
-    padding: 14px 20px;
-    text-align: left;
-    border-bottom: 1px solid white;
-    transition: $bg-transition;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px;
 }
 
-.slide-menu .slide-menu-btn:hover 
+.float-nav button 
 {
-    background-color: darken($color: $color-primary, $amount: 6);
-    transition: $bg-transition;
+    margin: 10px;
 }
 
-.nav-breaker 
+.nav-break 
 {
     padding-top: 67px;
 }
 
 /* Navigator - END */
 
-/* Main - START */
+/* Footer - START */
 
-.main 
+.contact .container
 {
-    background-color: $color-primary;
-    background-image: url("images/pattern.png");
-    background-repeat: repeat-x;
-    background-size: 100px;
-    background-position: center bottom;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact p 
+{
+    margin-bottom: 0px;
+}
+
+.footer 
+{
     color: white;
-    text-shadow: 0 1px 1px rgba(0,0,0,.2);
-    padding-top: 80px;
-    padding-bottom: 130px;
-}
-
-.main .msg 
-{
-    font-size: 18px;
-}
-
-.main .msg h1, .main .msg p
-{
-    margin-bottom: 30px;
-}
-
-.main-img 
-{
     text-align: center;
-    background-image: url("images/banana.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
+    background-color: $color-primary-darken;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* Main - END */
-
-/* Promote - START */
-
-.promote
+.footer p 
 {
-    padding-top: 60px;
-    padding-bottom: 45px;
+    margin: 0px;
 }
 
-.promote .msg-2 
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* Promote - END */
-
-/* Context - START */
-
-.context 
-{
-    background-color: $color-secondary;
-    background-image: url("images/pattern_top.png");
-    background-repeat: repeat-x;
-    background-size: 100px;
-    background-position: center top;
-    padding-top: 120px;
-    padding-bottom: 120px; 
-    text-align: center;
-}
-
-.context .con h2
-{
-    font-weight: 700;
-}
-
-.context .con i 
-{
-    font-size: 70px;
-    margin-bottom: 20px;
-}
-
-.context .con
-{
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 10px;
-    box-shadow: $inset-shadow;
-    background-color: darken($color: $color-secondary, $amount: 4);
-    border-radius: $border-rad;
-    height: 290px;
-    transition: $transition;
-}
-
-.context .con-primary:hover 
-{
-    cursor: pointer;
-    color: white;
-    background-color: $color-primary;
-    transition: $transition;
-}
-
-.context .con-danger:hover 
-{
-    cursor: pointer;
-    color: white;
-    background-color: $color-danger;
-    transition: $transition;
-}
-
-.context .con-success:hover 
-{
-    cursor: pointer;
-    color: white;
-    background-color: $color-success;
-    transition: $transition;
-}
-
-/* Context - END */
+/* Footer - END */
