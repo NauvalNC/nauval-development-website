@@ -1,7 +1,7 @@
 /* Common - START */
 .main-content {
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .main-content .content {
@@ -46,9 +46,10 @@
   padding: 0;
 }
 
-.BlogSearch input.gsc-search-button {
+.BlogSearch input.gsc-search-button, .BlogSearch button.gsc-search-button {
   margin: 0;
   border-radius: 0px 5px 5px 0px;
+  height: 37px;
 }
 
 .BlogSearch input.gsc-input {

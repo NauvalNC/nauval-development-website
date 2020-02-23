@@ -16,14 +16,6 @@ html, body {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 350px;
-  /* height of footer */
-}
-
-@media (min-width: 768px) {
-  .main {
-    padding-bottom: 285px;
-  }
 }
 
 button {
@@ -143,10 +135,6 @@ button {
 
 .float-nav button {
   margin: 10px;
-}
-
-.nav-break {
-  padding-top: 67px;
 }
 
 /* Navigator - END */

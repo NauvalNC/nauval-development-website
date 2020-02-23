@@ -70,13 +70,14 @@ $md: 768px;
     padding: 0;
 }
 
-.BlogSearch input.gsc-search-button
+.BlogSearch input.gsc-search-button, .BlogSearch button.gsc-search-button
 {
     margin: 0;
     border-radius: 0px $border-rad $border-rad 0px;
+    height: 37px;
 }
 
-.BlogSearch input.gsc-input 
+.BlogSearch input.gsc-input
 {
     border: none;
     border-radius: $border-rad 0px 0px $border-rad;
