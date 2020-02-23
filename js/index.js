@@ -1,9 +1,7 @@
-var main = $(".main");
-var footer = $(".end");
-
 function onResize() 
 {
-    main.css("padding-bottom", footer.css("height"));
+    $(".nav-break").css("padding-top", $(".nav").css("height"));
+    $(".main").css("padding-bottom", $(".end").css("height"));
 }
 
 // Navigator - START
