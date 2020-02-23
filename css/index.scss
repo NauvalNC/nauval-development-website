@@ -1,0 +1,278 @@
+$color-primary: #449ad5;
+$color-secondary: #f1edd4;
+$color-danger: #dc3545;
+$color-success: #28a745;
+
+$inset-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
+$border-rad: 5px;
+$transition: .1s ease;
+$bg-transition: background-color .1s ease;
+
+/* Commons - START */
+
+* 
+{
+    font-family: open sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button 
+{
+    outline: none;
+}
+
+.btn 
+{
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: $inset-shadow;
+    padding: 6px 12px;
+    line-height: 1.6;
+    border-radius: $border-rad;
+    transition: $bg-transition;
+}
+
+.btn:hover 
+{
+    transition: $bg-transition;
+}
+
+.btn-primary 
+{
+    background-color: $color-primary;
+}
+
+.btn-primary:hover 
+{
+    background-color: darken($color: $color-primary, $amount: 6);
+    transition: $bg-transition;
+}
+
+.btn-md 
+{
+    font-size: 18px;
+    padding: 14px 20px;
+}
+
+.btn-crc 
+{
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    padding: 0;
+    border-radius: 100px;
+}
+
+.text-md 
+{
+    font-size: 20px;
+}
+
+.color-primary 
+{
+    color: $color-primary;
+}
+
+/* Commons - END */
+
+/* Navigator - START */
+
+.nav 
+{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    background: rgb(242,242,242);
+    background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.nav .btn-group, .nav #slide-menu-open
+{
+    float: right;
+}
+
+.comp 
+{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.slide-fade 
+{
+    display: none;
+    z-index: 101;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-menu 
+{
+    display: none;
+    z-index: 102;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: $color-primary;
+}
+
+.slide-menu ol 
+{
+    list-style-type: none;
+}
+
+.slide-menu .slide-menu-btn 
+{
+    width: 100%;
+    border: none;
+    background: none;
+    font-weight: 700;
+    color: white;
+    padding: 14px 20px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    transition: $bg-transition;
+}
+
+.slide-menu .slide-menu-btn:hover 
+{
+    background-color: darken($color: $color-primary, $amount: 6);
+    transition: $bg-transition;
+}
+
+.nav-breaker 
+{
+    padding-top: 67px;
+}
+
+/* Navigator - END */
+
+/* Main - START */
+
+.main 
+{
+    background-color: $color-primary;
+    background-image: url("images/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 100px;
+    background-position: center bottom;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.main .msg 
+{
+    font-size: 18px;
+}
+
+.main .msg h1, .main .msg p
+{
+    margin-bottom: 30px;
+}
+
+.main-img 
+{
+    text-align: center;
+    background-image: url("images/banana.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+/* Main - END */
+
+/* Promote - START */
+
+.promote
+{
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.promote .msg-2 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Promote - END */
+
+/* Context - START */
+
+.context 
+{
+    background-color: $color-secondary;
+    background-image: url("images/pattern_top.png");
+    background-repeat: repeat-x;
+    background-size: 100px;
+    background-position: center top;
+    padding-top: 120px;
+    padding-bottom: 120px; 
+    text-align: center;
+}
+
+.context .con h2
+{
+    font-weight: 700;
+}
+
+.context .con i 
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.context .con
+{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    box-shadow: $inset-shadow;
+    background-color: darken($color: $color-secondary, $amount: 4);
+    border-radius: $border-rad;
+    height: 290px;
+    transition: $transition;
+}
+
+.context .con-primary:hover 
+{
+    cursor: pointer;
+    color: white;
+    background-color: $color-primary;
+    transition: $transition;
+}
+
+.context .con-danger:hover 
+{
+    cursor: pointer;
+    color: white;
+    background-color: $color-danger;
+    transition: $transition;
+}
+
+.context .con-success:hover 
+{
+    cursor: pointer;
+    color: white;
+    background-color: $color-success;
+    transition: $transition;
+}
+
+/* Context - END */
