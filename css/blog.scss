@@ -99,7 +99,7 @@ $md: 768px;
 
 /* Post - START */
 
-.Blog .post-outer .post-list-item, .Blog .post-outer .post
+.Blog .post-outer .post-list-item, .Blog .post-outer .post-single
 {
     background-color: white;
     border-radius: 5px;
@@ -113,17 +113,22 @@ $md: 768px;
     border-radius: $border-rad $border-rad 0px 0px;
 }
 
-.Blog .post-outer .post img
+.Blog .post-outer .post-single img
 {
     width: 100%;
     height: auto;
     border-radius: $border-rad;
 }
 
-.Blog .post-outer .post-list-item .post-title, .Blog .post-outer .post .post-title
+.Blog .post-outer .post-list-item .post-title, .Blog .post-outer .post-single .post-title
 {
     margin-bottom: 10px;
     font-weight: $common-font-weight;
+}
+
+.Blog .post-outer .post .post-title
+{
+    display: none;
 }
 
 .Blog .post-outer .post-list-item .post-snippet 
@@ -132,7 +137,7 @@ $md: 768px;
     margin-bottom: 10px;
 }
 
-.Blog .post-outer .post-list-item .post-tag, .Blog .post-outer .post .post-tag
+.Blog .post-outer .post-list-item .post-tag, .Blog .post-outer .post-single .post-tag
 {
     color: white;
     background-color: black;
@@ -142,7 +147,7 @@ $md: 768px;
     font-size: 15px;
 }
 
-.Blog .post-outer .post-list-item .post-date, .Blog .post-outer .post .post-date
+.Blog .post-outer .post-list-item .post-date, .Blog .post-outer .post-single .post-date
 {
     color: gray;
     font-size: 15px;
@@ -164,7 +169,7 @@ $md: 768px;
     margin-bottom: 20px;
 }
 
-.Blog .post-outer .post-list-item .post-list-item-content, .Blog .post-outer .post 
+.Blog .post-outer .post-list-item .post-list-item-content, .Blog .post-outer .post-single 
 {
     padding: 20px;
 }
