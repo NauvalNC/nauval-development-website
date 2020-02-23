@@ -126,12 +126,22 @@ $md: 768px;
     font-weight: $common-font-weight;
 }
 
+.Blog .post-outer .post-single .post-title 
+{
+    margin-bottom: 20px;
+}
+
 .Blog .post-outer .post .post-title
 {
     display: none;
 }
 
-.Blog .post-outer .post-list-item .post-snippet 
+.Blog .post-outer .post-list-item .post-snippet, .Blog .post-outer .post-single .post-body 
+{
+    text-align: justify;
+}
+
+.Blog .post-outer .post-list-item .post-snippet
 {
     margin-top: 10px;
     margin-bottom: 10px;
