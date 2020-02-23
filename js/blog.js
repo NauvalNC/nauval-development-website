@@ -1,0 +1,1 @@
+addClass(".home-link", "btn btn-danger");
