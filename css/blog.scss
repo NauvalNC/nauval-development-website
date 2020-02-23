@@ -41,6 +41,13 @@ $md: 768px;
     box-shadow: $inset-shadow;
     font-weight: $common-font-weight;
     color: white;
+    padding: 0.3em;
+}
+
+.status-msg-body a
+{
+    color: white;
+    font-style: italic;
 }
 
 .status-msg-border 
