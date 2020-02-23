@@ -36,15 +36,6 @@ html, body
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 350px; /* height of footer */
-}
-
-@media (min-width: $md) 
-{
-    .main
-    {
-        padding-bottom: 285px;
-    }
 }
 
 button 

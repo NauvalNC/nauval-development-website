@@ -1,3 +1,11 @@
+var main = $(".main");
+var footer = $(".end");
+
+function onResize() 
+{
+    main.css("padding-bottom", footer.css("height"));
+}
+
 // Navigator - START
 
 function viewContact()
