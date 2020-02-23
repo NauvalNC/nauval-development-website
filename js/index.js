@@ -1,3 +1,8 @@
+function onLoad() 
+{
+    onResize();
+}
+
 function onResize() 
 {
     $(".nav-break").css("padding-top", $(".nav").css("height"));
