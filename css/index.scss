@@ -12,6 +12,8 @@ $border-rad: 5px;
 $transition: .1s ease;
 $bg-transition: background-color .1s ease;
 
+$md: 768px;
+
 /* Commons - START */
 
 * 
@@ -19,6 +21,29 @@ $bg-transition: background-color .1s ease;
     font-family: open sans, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+html, body 
+{
+    height: 100%;
+    position: relative;
+}
+
+.main
+{
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 350px; /* height of footer */
+}
+
+@media (min-width: $md) 
+{
+    .main
+    {
+        padding-bottom: 285px;
+    }
 }
 
 button 
@@ -161,9 +186,20 @@ button
 
 /* Footer - START */
 
-.contact .container
+.end 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact 
 {
     background-color: white;
+}
+
+.contact .container
+{
     padding-top: 20px;
     padding-bottom: 50px;
 }

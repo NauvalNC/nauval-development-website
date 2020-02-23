@@ -5,6 +5,26 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+.main {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 350px;
+  /* height of footer */
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-bottom: 285px;
+  }
+}
+
 button {
   outline: none;
 }
@@ -130,8 +150,17 @@ button {
 
 /* Navigator - END */
 /* Footer - START */
-.contact .container {
+.end {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact {
   background-color: white;
+}
+
+.contact .container {
   padding-top: 20px;
   padding-bottom: 50px;
 }
