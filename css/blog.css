@@ -42,7 +42,7 @@
   display: none;
 }
 
-.BlogSearch td.gsc-input {
+.BlogSearch table.gsc-search-box td.gsc-input {
   padding: 0;
 }
 
