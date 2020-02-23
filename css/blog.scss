@@ -142,10 +142,24 @@ $md: 768px;
     margin-bottom: 5px;
 }
 
-.Blog .post-outer .post-list-item .readmore-btn 
+.Blog .post-outer .post-list-item .readmore-btn a 
 {
     color: white;
-    font-size: 15px;
+}
+
+.Blog .post-outer .post-list-item .readmore-btn a:hover 
+{
+    text-decoration: none;
+}
+
+.Blog .post-outer .post-list-item 
+{
+    margin-bottom: 20px;
+}
+
+.Blog .blog-posts .date-header 
+{
+    display: none;
 }
 
 /* Post - END */
