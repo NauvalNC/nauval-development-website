@@ -42,12 +42,13 @@
   display: none;
 }
 
-.BlogSearch .table.gsc-search-box td.gsc-input {
+.BlogSearch td.gsc-input {
   padding: 0;
 }
 
 .BlogSearch input.gsc-search-button {
   margin: 0;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .BlogSearch input.gsc-input {
