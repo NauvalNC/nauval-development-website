@@ -92,14 +92,26 @@
 
 .Blog .post-outer .post-list-item .post-snippet {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Blog .post-outer .post-list-item .post-tag {
   color: white;
-  background-color: #dc3545;
+  background-color: black;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   font-weight: 700;
+  font-size: 15px;
+}
+
+.Blog .post-outer .post-list-item .post-date {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.Blog .post-outer .post-list-item .readmore-btn {
+  color: white;
   font-size: 15px;
 }
 
