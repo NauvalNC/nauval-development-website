@@ -159,12 +159,28 @@
   border-radius: 5px;
   -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  height: 100px;
+  color: black;
+}
+
+.PopularPosts .item-content .item-title {
+  font-weight: 700;
+}
+
+.PopularPosts .item-content .item-thumbnail img {
+  width: 100px;
+  height: 97px;
+  border-radius: 5px;
 }
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.PopularPosts .item-content .item-title:hover, .PopularPosts .item-content .item-snippet:hover {
+  text-decoration: none;
 }
 
 /* Side Content - END */
