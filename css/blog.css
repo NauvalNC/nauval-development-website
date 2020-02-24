@@ -171,6 +171,7 @@
   width: 100px;
   height: 97px;
   border-radius: 5px;
+  margin: 0;
 }
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet {
@@ -179,8 +180,20 @@
   white-space: nowrap;
 }
 
-.PopularPosts .item-content .item-title:hover, .PopularPosts .item-content .item-snippet:hover {
+.PopularPosts a {
   text-decoration: none;
+}
+
+.PopularPosts .item-content .item-des div {
+  padding: 0px 10px;
+}
+
+.PopularPosts h5 {
+  font-weight: 700;
+}
+
+.PopularPosts {
+  margin-top: 30px;
 }
 
 /* Side Content - END */

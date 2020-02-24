@@ -217,6 +217,7 @@ $md: 768px;
     width: 100px;
     height: 97px;
     border-radius: $border-rad;
+    margin: 0;
 }
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet
@@ -226,14 +227,24 @@ $md: 768px;
     white-space: nowrap;
 }
 
-.PopularPosts .item-content .item-title:hover
+.PopularPosts a
 {
     text-decoration: none;
 }
 
-.PopularPosts .item-content .item-snippet:hover 
+.PopularPosts .item-content .item-des div
 {
-    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.PopularPosts h5 
+{
+    font-weight: $common-font-weight;
+}
+
+.PopularPosts
+{
+    margin-top: 30px;
 }
 
 /* Side Content - END */
