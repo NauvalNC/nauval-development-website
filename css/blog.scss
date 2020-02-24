@@ -205,7 +205,7 @@ $md: 768px;
     box-shadow: $inset-shadow;
 }
 
-.PopularPosts .item-content  .item-title 
+.PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet
 {
     overflow: hidden;
     text-overflow: ellipsis;
