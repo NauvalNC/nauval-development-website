@@ -203,6 +203,20 @@ $md: 768px;
     background-color: #fff;
     border-radius: $border-rad;
     box-shadow: $inset-shadow;
+    height: 100px;
+    color: black;
+}
+
+.PopularPosts .item-content .item-title 
+{
+    font-weight: $common-font-weight;
+}
+
+.PopularPosts .item-content .item-thumbnail img
+{
+    width: 100px;
+    height: 97px;
+    border-radius: $border-rad;
 }
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet
@@ -210,6 +224,11 @@ $md: 768px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.PopularPosts .item-content .item-title:hover, .PopularPosts .item-content .item-snippet:hover 
+{
+    text-decoration: none;
 }
 
 /* Side Content - END */
