@@ -9,6 +9,10 @@
   top: -10px;
 }
 
+.main-content .row {
+  margin-bottom: 50px;
+}
+
 /* Common - START */
 /* Status Messege - START */
 .status-msg-wrap {
@@ -72,6 +76,10 @@
 
 /* Search Bar - END */
 /* Post - START */
+.Blog {
+  margin-top: 10px;
+}
+
 .Blog .post-outer .post-list-item, .Blog .post-outer .post-single {
   background-color: white;
   border-radius: 5px;
@@ -175,6 +183,7 @@
 }
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet {
+  padding: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

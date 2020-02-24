@@ -26,6 +26,12 @@ $md: 768px;
     position: relative;
     top: -10px;
 }
+
+.main-content .row 
+{
+    margin-bottom: 50px;
+}
+
 /* Common - START */
 
 /* Status Messege - START */
@@ -98,6 +104,11 @@ $md: 768px;
 /* Search Bar - END */
 
 /* Post - START */
+
+.Blog 
+{
+    margin-top: 10px;
+}
 
 .Blog .post-outer .post-list-item, .Blog .post-outer .post-single
 {
@@ -222,6 +233,7 @@ $md: 768px;
 
 .PopularPosts .item-content .item-title, .PopularPosts .item-content .item-snippet
 {
+    padding: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
