@@ -226,7 +226,12 @@ $md: 768px;
     white-space: nowrap;
 }
 
-.PopularPosts .item-content .item-title:hover, .PopularPosts .item-content .item-snippet:hover 
+.PopularPosts .item-content .item-title:hover
+{
+    text-decoration: none;
+}
+
+.PopularPosts .item-content .item-snippet:hover 
 {
     text-decoration: none;
 }
