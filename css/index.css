@@ -11,7 +11,7 @@ html, body {
 }
 
 .main {
-  background-color: #f1edd4;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   min-height: 100vh;
   overflow: hidden;
   display: block;
