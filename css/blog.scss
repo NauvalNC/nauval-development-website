@@ -193,19 +193,19 @@ $md: 768px;
 
 /* Side Content - START */
 
-.PopularPosts .popular-posts li 
+.PopularPosts li 
 {
     list-style-type: none;
 }
 
-.PopularPosts .popular-posts li .item-content 
+.PopularPosts .item-content 
 {
     background-color: #fff;
     border-radius: $border-rad;
     box-shadow: $inset-shadow;
 }
 
-.PopularPosts .popular-posts li .item-content  .item-title 
+.PopularPosts .item-content  .item-title 
 {
     overflow: hidden;
     text-overflow: ellipsis;
