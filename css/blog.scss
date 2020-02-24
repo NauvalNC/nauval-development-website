@@ -190,3 +190,26 @@ $md: 768px;
 }
 
 /* Post - END */
+
+/* Side Content - START */
+
+.PopularPosts .popular-posts li 
+{
+    list-style-type: none;
+}
+
+.PopularPosts .popular-posts li .item-content 
+{
+    background-color: #fff;
+    border-radius: $border-rad;
+    box-shadow: $inset-shadow;
+}
+
+.PopularPosts .popular-posts li .item-content  .item-title 
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Side Content - END */
