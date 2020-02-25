@@ -12,6 +12,7 @@ $box-shadow-lg: 0px 0px 10px rgba(0, 0, 0, 0.3);
 $inset-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
 $border-rad: 5px;
 $transition: .1s ease;
+$transition-lg: .3s ease;
 $bg-transition: background-color .1s ease;
 
 $md: 768px;
@@ -117,13 +118,13 @@ $md: 768px;
     background-color: white;
     border-radius: 5px;
     box-shadow: $box-shadow;
-    transition: $transition;
+    transition: $transition-lg;
 }
 
 .Blog .post-outer .post-list-item:hover, .Blog .post-outer .post-single:hover 
 {
     box-shadow: $box-shadow-lg;
-    transition: $transition;
+    transition: $transition-lg;
 }
 
 .Blog .post-outer .post-list-item img
@@ -230,13 +231,13 @@ $md: 768px;
     box-shadow: $box-shadow;
     height: 100px;
     color: black;
-    transition: $transition;
+    transition: $$transition-lg;
 }
 
 .PopularPosts .item-content:hover 
 {
     box-shadow: $box-shadow-lg;
-    transition: $transition;
+    transition: $$transition-lg;
 }
 
 .PopularPosts .item-content .item-title 
