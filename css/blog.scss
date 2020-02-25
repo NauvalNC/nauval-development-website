@@ -43,14 +43,13 @@ $md: 768px;
     width: 100%;
 }
 
-.status-msg-body 
+.status-msg-wrap 
 {
     background-color: $color-primary;
     border-radius: $border-rad;
     box-shadow: $inset-shadow;
     font-weight: $common-font-weight;
     color: white;
-    padding: 0.3em;
 }
 
 .status-msg-body a
