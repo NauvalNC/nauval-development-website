@@ -231,13 +231,13 @@ $md: 768px;
     box-shadow: $box-shadow;
     height: 100px;
     color: black;
-    transition: $$transition-lg;
+    transition: $transition-lg;
 }
 
 .PopularPosts .item-content:hover 
 {
     box-shadow: $box-shadow-lg;
-    transition: $$transition-lg;
+    transition: $transition-lg;
 }
 
 .PopularPosts .item-content .item-title 
