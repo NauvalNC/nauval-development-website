@@ -165,7 +165,7 @@
 }
 
 .Blog .home-link {
-  position: absolute;
+  display: none;
 }
 
 /* Post - END */
