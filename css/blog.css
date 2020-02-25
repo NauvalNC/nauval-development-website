@@ -90,8 +90,8 @@
 }
 
 .Blog .post-outer .post-list-item:hover, .Blog .post-outer .post-single:hover {
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
 }
@@ -187,8 +187,8 @@
 }
 
 .PopularPosts .item-content:hover {
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
 }
