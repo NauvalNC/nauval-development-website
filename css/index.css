@@ -11,7 +11,8 @@ html, body {
 }
 
 .main {
-  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  background: #e7e7e7;
+  background: radial-gradient(circle, #e7e7e7 0%, #cccccc 100%);
   min-height: 100vh;
   overflow: hidden;
   display: block;
@@ -98,6 +99,10 @@ button {
   background: #f2f2f2;
   background: -webkit-gradient(linear, left bottom, left top, from(#f2f2f2), to(white));
   background: linear-gradient(0deg, #f2f2f2 0%, white 100%);
+}
+
+.nav .container {
+  padding: 0;
 }
 
 .nav .container .btn, .nav .container .btn-group {
