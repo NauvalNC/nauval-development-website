@@ -214,6 +214,11 @@ $md: 768px;
     display: none;
 }
 
+.Blog .post-outer .post h4 
+{
+    font-weight: $common-font-weight;
+}
+
 /* Post - END */
 
 /* Side Content - START */
@@ -283,3 +288,28 @@ $md: 768px;
 }
 
 /* Side Content - END */
+
+/* Comment - START */
+
+.Blog .post-comment 
+{
+    padding: 1rem;
+    background-color: white;
+    border-radius: $border-rad;
+    box-shadow: $box-shadow;
+    transition: $transition-lg;
+    margin-top: 20px;
+}
+
+.Blog .post-comment:hover 
+{
+    box-shadow: $box-shadow-lg;
+    transition: $transition-lg;
+}
+
+.Blog .post-comment .post-comment-title 
+{  
+    font-weight: $common-font-weight;
+}
+
+/* Comment - END */
