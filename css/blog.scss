@@ -312,9 +312,18 @@ $md: 768px;
     font-weight: $common-font-weight;
 }
 
+.Blog .post-comment .comment 
+{
+    padding: 1rem;
+    background-color: white;
+    border-radius: $border-rad;
+    box-shadow: $box-shadow;
+}
+
 .Blog .post-comment h4 
 {
     font-weight: $common-font-weight;
+    font-size: inherit;
 }
 
 /* Comment - END */
