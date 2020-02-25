@@ -256,14 +256,6 @@
   font-weight: 700;
 }
 
-.Blog .post-comment .comment {
-  padding: 1rem;
-  background-color: white;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
 .Blog .post-comment h4 {
   font-weight: 700;
   font-size: inherit;
