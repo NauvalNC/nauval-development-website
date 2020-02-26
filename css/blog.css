@@ -176,6 +176,11 @@
   font-weight: 700;
 }
 
+.hljs {
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
 /* Post - END */
 /* Side Content - START */
 .PopularPosts li {
