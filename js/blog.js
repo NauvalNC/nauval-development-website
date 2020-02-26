@@ -6,9 +6,3 @@ $(".blog-pager-newer-link").html("Prev");
 addClass(".home-link", "btn btn-primary");
 addClass(".blog-pager-older-link", "btn btn-primary");
 addClass(".blog-pager-newer-link", "btn btn-primary");
-
-var tag = $(".Blog .post-outer .post-list-item .post-tag").html();
-if (tag.includes("Online Judge")) 
-{
-    $(".Blog .post-outer .post-list-item .post-snippet").hide();
-}
