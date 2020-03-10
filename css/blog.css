@@ -83,6 +83,14 @@
   margin-top: 10px;
 }
 
+.code {
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-family: monospace;
+}
+
 .Blog .post-outer .post-list-item, .Blog .post-outer .post-single {
   background-color: white;
   border-radius: 5px;

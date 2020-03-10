@@ -117,6 +117,15 @@ $md: 768px;
     margin-top: 10px;
 }
 
+.code 
+{
+    background-color:black; 
+    border-radius: $border-rad; 
+    padding: 10px;
+    color: white;
+	font-family: monospace;
+}
+
 .Blog .post-outer .post-list-item, .Blog .post-outer .post-single
 {
     background-color: white;
